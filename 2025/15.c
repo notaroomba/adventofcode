@@ -19,6 +19,7 @@ int main(int argc, char* argv[]) {
         }
         if (angle == 0) {
             code++;
+            code += ((value) / 100) - (value %100) / 100;
         }
     }
         printf("The code is: %i\n", code);
